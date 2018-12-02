@@ -73,6 +73,7 @@ h2 {
   background-repeat: repeat;
   min-height: 588px;
   border-top: 3px solid #ccc;
+  overflow: hidden;
 }
 .body-container img {
   float: left;
@@ -81,11 +82,79 @@ h2 {
 .body-container {
   background-color: #fff;
   width: 960px;
-  margin: auto;
+  margin: 0 auto 50px;
   padding: 10px 25px;
   position: relative;
   top: 25px;
   min-height: 500px;
+  overflow: hidden;
+}
+.skill {
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.skill-desc {
+  text-align: center;
+  position: relative;
+  top: 135px;
+  background-color: #4aaaa5;
+  padding: 20px 0px;
+}
+.skill-desc a:link,
+.skill-desc a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.skill-desc a:hover,
+.skill-desc a:active {
+  text-decoration: underline;
+}
+#skill-1 {
+  background-image: url('../images/image1.jpg');
+  background-repeat: no-repeat;
+}
+#skill-2 {
+  background-image: url('../images/image2.jpg');
+  background-repeat: no-repeat;
+}
+#skill-3 {
+  background-image: url('../images/image3.jpg');
+  background-repeat: no-repeat;
+}
+#skill-4 {
+  background-image: url('../images/image4.jpg');
+  background-repeat: no-repeat;
+}
+#skill-5 {
+  background-image: url('../images/image5.jpg');
+  background-repeat: no-repeat;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #25D0C8;
 }
 .footer-bg{
   background-color: #666;

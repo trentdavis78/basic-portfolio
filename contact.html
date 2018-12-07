@@ -2,44 +2,51 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css">  -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <title>Trent Davis's Portfolio</title>
 </head>
 <body>
-  <div class="container">
-    <div class="nav-container">
-      <div class="logo">
-        <h1>Trent Davis</h1>
-      </div>
-      <div class="navigation">
-        <ul>
-          <li class="nav-border-l"><a href="contact.html">Contact</a></li>
-          <li class="nav-border-l"><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="index.html">About</a></li>
-        </ul>
+  <div id="container">
+    <div id="header">
+      <div class="nav-container">
+        <div class="logo">
+          <h1>Trent Davis</h1>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li class="nav-border-l"><a href="contact.html">Contact</a></li>
+            <li class="nav-border-l"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">About</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="container body-bg">
+    <div id="content">
       <div class="body-container">
         <h2>Contact</h2>
-        <form action="#">
-          <label for="fname">Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="John Smith">
+          <form action="#">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John Smith">
 
-          <label for="lname">Email</label>
-          <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
 
-          <label for="subject">Message</label>
-          <textarea id="subject" name="subject" style="height:200px"></textarea>
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" style="height:200px"></textarea>
 
-          <input type="submit" value="Submit">
-        </form>
+            <input type="submit" value="Submit">
+          </form>
       </div>
     </div>
-    <div class="container footer-bg">
-      <div class="footer-container">
-        <p>Copyright &copy;</p>
+    <div id="footer">
+      <div class="container footer-bg">
+        <div class="footer-container">
+          <p>Copyright &copy;</p>
+        </div>
       </div>
     </div>
-  </body>
-  </html>
+  </div>
+</body>
+</html>
